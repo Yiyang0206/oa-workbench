@@ -1,0 +1,565 @@
+[
+  {
+    "categoryName": "资产管理",
+    "flows": [
+      {
+        "name": "低值品盘点（库外）",
+        "workflowId": "1090087292772958211",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1090087292772958211",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产捐赠流程",
+        "workflowId": "1069264359399268364",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1069264359399268364",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "低值品出库",
+        "workflowId": "1069318871174520835",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1069318871174520835",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "盘点任务",
+        "workflowId": "1070825004466078053",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1070825004466078053",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "付款信息流程",
+        "workflowId": "1071111375750340611",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1071111375750340611",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "凭证流程",
+        "workflowId": "1071165797205450813",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1071165797205450813",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "低值品归还",
+        "workflowId": "1080026572386041860",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1080026572386041860",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "低值品领用",
+        "workflowId": "1081560807694958595",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1081560807694958595",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "低值品变更（在库）",
+        "workflowId": "1082614711201185828",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1082614711201185828",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "低值品处置（在库）",
+        "workflowId": "1082618774206693378",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1082618774206693378",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "低值品转移（在库）",
+        "workflowId": "1082626071465181194",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1082626071465181194",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "低值品盘点（在库）",
+        "workflowId": "1086694178440617992",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1086694178440617992",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "低值品转移（库外）",
+        "workflowId": "1087564978756460547",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1087564978756460547",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "低值品处置（库外）",
+        "workflowId": "1087565794758303746",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1087565794758303746",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产出售流程",
+        "workflowId": "1069248137324568585",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1069248137324568585",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产增值",
+        "workflowId": "1103087458702524418",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1103087458702524418",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产收回",
+        "workflowId": "1110439098438025227",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1110439098438025227",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产派发",
+        "workflowId": "1113489281048788996",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1113489281048788996",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产批次",
+        "workflowId": "1136472372654112770",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1136472372654112770",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "项目验收",
+        "workflowId": "1138290947733307396",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1138290947733307396",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "项目转固",
+        "workflowId": "1138291720819032067",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1138291720819032067",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产续期",
+        "workflowId": "1138384298825228290",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1138384298825228290",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产抵押",
+        "workflowId": "1138385041846181891",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1138385041846181891",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产维权",
+        "workflowId": "1138386738341486595",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1138386738341486595",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产运维",
+        "workflowId": "1138388280192802818",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1138388280192802818",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产升级",
+        "workflowId": "1138389568733323277",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1138389568733323277",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "在建项目",
+        "workflowId": "1138645832226840578",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1138645832226840578",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "项目变更",
+        "workflowId": "1139014319049728006",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1139014319049728006",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产保养工单",
+        "workflowId": "1043357490231025667",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1043357490231025667",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产租赁申请",
+        "workflowId": "1040001621861441539",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1040001621861441539",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产入库申请",
+        "workflowId": "1040016989329924104",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1040016989329924104",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产租赁归还申请",
+        "workflowId": "1040045370339598339",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1040045370339598339",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "采购计划申请",
+        "workflowId": "1040314501647409160",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1040314501647409160",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产采购申请",
+        "workflowId": "1040329332278534148",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1040329332278534148",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "采购合同申请",
+        "workflowId": "1040373858263212039",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1040373858263212039",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产调拨申请",
+        "workflowId": "1040412456932974599",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1040412456932974599",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产借用申请",
+        "workflowId": "1040422326935593009",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1040422326935593009",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产归还申请",
+        "workflowId": "1040428571784486925",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1040428571784486925",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产转移申请",
+        "workflowId": "1040683795778478082",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1040683795778478082",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产处置申请",
+        "workflowId": "1040693816037842980",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1040693816037842980",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产盘点计划",
+        "workflowId": "1040765885471629367",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1040765885471629367",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产维修申请",
+        "workflowId": "1042967154978619394",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1042967154978619394",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产领用申请",
+        "workflowId": "1039977046226345992",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1039977046226345992",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产报修申请",
+        "workflowId": "1043662158115020896",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1043662158115020896",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产报废申请",
+        "workflowId": "1045593566209662980",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1045593566209662980",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "不动产转让申请",
+        "workflowId": "1045988153361195016",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1045988153361195016",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产授权申请",
+        "workflowId": "1046251598081146885",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1046251598081146885",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产变更申请",
+        "workflowId": "1047832601343795203",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1047832601343795203",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产巡检任务",
+        "workflowId": "1048109605452488706",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1048109605452488706",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "共享申请",
+        "workflowId": "1049587228628197387",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1049587228628197387",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "采购预算申请",
+        "workflowId": "1055141312902602752",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1055141312902602752",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产折旧凭证生成",
+        "workflowId": "1055954397505634305",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1055954397505634305",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "盘点异常处理申请",
+        "workflowId": "1056265503496822784",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1056265503496822784",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产租赁合同申请",
+        "workflowId": "1056360173207904322",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1056360173207904322",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "共享归还流程",
+        "workflowId": "1059333991142735878",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1059333991142735878",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "资产登账流程",
+        "workflowId": "1068895374475362382",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1068895374475362382",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
+    "categoryName": "文书定-档案管理",
+    "flows": [
+      {
+        "name": "档案借阅流程",
+        "workflowId": "908277461755977729",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/908277461755977729",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "开放鉴定流程",
+        "workflowId": "909746001249501186",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/909746001249501186",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "销毁鉴定流程",
+        "workflowId": "910141267064586240",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/910141267064586240",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "入管理库流程",
+        "workflowId": "1000999371848253444",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1000999371848253444",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "退接收库流程",
+        "workflowId": "1004048682686078979",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1004048682686078979",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "档案催还流程",
+        "workflowId": "1014474535296376837",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1014474535296376837",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "在线移交流程",
+        "workflowId": "1016561391215869955",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1016561391215869955",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "离线移交流程",
+        "workflowId": "1024083863159291912",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1024083863159291912",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "离线接收流程",
+        "workflowId": "1025179608118304772",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1025179608118304772",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "档案协查流程",
+        "workflowId": "1039650521296085059",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1039650521296085059",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "整编移交流程",
+        "workflowId": "1078668594105778180",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1078668594105778180",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "整编退回流程",
+        "workflowId": "1078669981321494531",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1078669981321494531",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
+    "categoryName": "招聘管理",
+    "flows": [
+      {
+        "name": "需求申请流程",
+        "workflowId": "937265995656913203",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/937265995656913203",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "招聘管理入职事项准备流程",
+        "workflowId": "937265995656913204",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/937265995656913204",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "Offer申请流程",
+        "workflowId": "937265995656913205",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/937265995656913205",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "招聘需求计划申请",
+        "workflowId": "937265995656913206",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/937265995656913206",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "发起背调",
+        "workflowId": "1058888697519423491",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1058888697519423491",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "发起薪酬谈判",
+        "workflowId": "1058917418058006531",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1058917418058006531",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
+    "categoryName": "绩效考核",
+    "flows": [
+      {
+        "name": "绩效考核流程",
+        "workflowId": "1120846160731774990",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1120846160731774990",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
+    "categoryName": "人事类",
+    "flows": [
+      {
+        "name": "请假申请",
+        "workflowId": "1157577841996341251",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1157577841996341251",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "加班申请",
+        "workflowId": "1157656620345204826",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1157656620345204826",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "证照外借流程",
+        "workflowId": "1157958556361564164",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1157958556361564164",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "省内外出申请",
+        "workflowId": "1157970655359934468",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1157970655359934468",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "出差申请",
+        "workflowId": "1158000763231674451",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1158000763231674451",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "补卡打卡申请",
+        "workflowId": "1158005397283283027",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1158005397283283027",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "销假申请",
+        "workflowId": "1173237885443850243",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1173237885443850243",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
+    "categoryName": "市场",
+    "flows": [
+      {
+        "name": "改价流程",
+        "workflowId": "1175033323582996490",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1175033323582996490",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
+    "categoryName": "其它",
+    "flows": [
+      {
+        "name": "合同开票流程申请",
+        "workflowId": "1088264783471525897",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1088264783471525897",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "数据源使用SQL/视图申请单",
+        "workflowId": "8445211544725888086",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/8445211544725888086",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "证照流程1",
+        "workflowId": "1159496914929852418",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1159496914929852418",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "用车流程",
+        "workflowId": "1161732488281595906",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1161732488281595906",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "测试",
+        "workflowId": "1165369333490319363",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1165369333490319363",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  }
+]
