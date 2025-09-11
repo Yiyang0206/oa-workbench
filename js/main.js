@@ -117,19 +117,16 @@ function handleSearch(e) {
 
 // 应用筛选条件（分类+搜索）
 function applyFilters() {
-    let result = [...state.allData];
+
+    let result = JSON.parse(JSON.stringify(state.allData));
     
+    // 只执行一次分类筛选（删除重复代码）
     if (state.currentCategory !== 'all') {
-        result = result.filter(category => category.categoryName === state.currentCategory);
-    } else {
-        // 如果是"全部"分类，不进行分类筛选
-        result = [...state.allData];
-    }
-    
-    // 应用分类筛选
-    if (state.currentCategory !== 'all') {
-        result = result.filter(category => category.categoryName === state.currentCategory);
-    }
+        result = result.filter(category => {
+            const isMatch = category.categoryName === state.currentCategory;
+            return isMatch;
+        });
+    } 
     
     // 应用搜索筛选
     if (state.searchQuery) {
