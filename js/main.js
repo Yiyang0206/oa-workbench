@@ -119,6 +119,13 @@ function handleSearch(e) {
 function applyFilters() {
     let result = [...state.allData];
     
+    if (state.currentCategory !== 'all') {
+        result = result.filter(category => category.categoryName === state.currentCategory);
+    } else {
+        // 如果是"全部"分类，不进行分类筛选
+        result = [...state.allData];
+    }
+    
     // 应用分类筛选
     if (state.currentCategory !== 'all') {
         result = result.filter(category => category.categoryName === state.currentCategory);
