@@ -1,7 +1,7 @@
 name: 同步泛微流程数据
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天凌晨2点（UTC）执行，北京时间10点
+    - cron: '0 0 * * *'  # 每天凌晨0点（UTC）执行，北京时间8点
   workflow_dispatch:  # 允许手动触发
 
 jobs:
@@ -145,10 +145,14 @@ jobs:
                   url: `https://oa.guoxinweiye.com/sp/workflow/flowpage/create/${flow.workflowId}`,
                   icon: 'fa-file-text-o'  // 默认图标
                 }));
-                result.push({
-                  categoryName: category.name,
-                  flows: formattedFlows
-                });
+                if (formattedFlows.length > 0) {
+                  result.push({
+                    categoryName: category.name,
+                    flows: formattedFlows
+                  });
+                } else {
+                  console.log(`分类 "${category.name}" 无启用流程，跳过不保存`); // 可选：日志提示
+                }
               }
 
               // 保存结果到JSON文件
