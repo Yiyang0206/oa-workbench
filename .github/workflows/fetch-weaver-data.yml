@@ -1,0 +1,162 @@
+name: 同步泛微流程数据
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天凌晨2点（UTC）执行，北京时间10点
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 拉取仓库代码
+        uses: actions/checkout@v4
+
+      - name: 安装Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+
+      - name: 调用泛微API并生成JSON
+        run: |
+          # 创建数据获取脚本
+          cat > fetch-weaver.js << 'EOF'
+          const axios = require('axios');
+          const fs = require('fs');
+
+          // 从环境变量读取配置
+          const config = {
+            baseUrl: process.env.WEAVER_BASE_URL,
+            corpid: process.env.WEAVER_CORPID,
+            appKey: process.env.WEAVER_APP_KEY,
+            appSecret: process.env.WEAVER_APP_SECRET,
+            userId: process.env.WEAVER_USERID
+          };
+
+          // 步骤1：获取code
+          async function getCode() {
+            const url = `${config.baseUrl}/oauth2/authorize`;
+            const params = {
+              corpid: config.corpid,
+              response_type: 'code',
+              state: 'sysadmin'
+            };
+            const res = await axios.get(url, { params });
+            if (res.data.errcode !== '0') {
+              throw new Error(`获取code失败：${res.data.errmsg}`);
+            }
+            return res.data.code;
+          }
+
+          // 步骤2：获取access_token
+          async function getAccessToken(code) {
+            const url = `${config.baseUrl}/oauth2/access_token`;
+            const params = {
+              app_key: config.appKey,
+              app_secret: config.appSecret,
+              grant_type: 'authorization_code',
+              code: code
+            };
+            const res = await axios.post(url, null, { params });
+            if (res.data.errcode !== '0') {
+              throw new Error(`获取access_token失败：${res.data.errmsg}`);
+            }
+            // 注意泛微返回可能有拼写错误（acessToken），兼容两种字段
+            return res.data.accessToken || res.data.acessToken;
+          }
+
+          // 步骤3：查询流程分类
+          async function getCategories(accessToken) {
+            const url = `${config.baseUrl}/workflow/v2/classify`;
+            const params = {
+              access_token: accessToken,
+              userid: config.userId
+            };
+            const res = await axios.get(url, { params });
+            if (res.data.message?.errcode !== '0') {
+              throw new Error(`获取分类失败：${res.data.message?.errmsg || '未知错误'}`);
+            }
+            return res.data.formCategories || [];
+          }
+
+          // 步骤4：根据分类ID查询流程
+          async function getFlowsByCategory(accessToken, categoryId) {
+            const url = `${config.baseUrl}/papi/openapi/workflow/v2/getFormByCategoryId`;
+            const params = {
+              access_token: accessToken,
+              userid: config.userId,
+              categoryId: categoryId
+            };
+            const res = await axios.get(url, { params });
+            if (res.data.message?.errcode !== '0') {
+              throw new Error(`获取流程失败（分类ID: ${categoryId}）：${res.data.message?.errmsg || '未知错误'}`);
+            }
+            return res.data.forms || [];
+          }
+
+          // 主函数：串联所有步骤
+          async function main() {
+            try {
+              console.log('步骤1/4：获取code...');
+              const code = await getCode();
+
+              console.log('步骤2/4：获取access_token...');
+              const accessToken = await getAccessToken(code);
+
+              console.log('步骤3/4：查询流程分类...');
+              const categories = await getCategories(accessToken);
+              if (categories.length === 0) {
+                console.log('未获取到任何流程分类');
+                return;
+              }
+
+              console.log('步骤4/4：查询各分类下的流程...');
+              const result = [];
+              for (const category of categories) {
+                const flows = await getFlowsByCategory(accessToken, category.id);
+                // 为每个流程生成跳转链接
+                const formattedFlows = flows.map(flow => ({
+                  name: flow.name,
+                  workflowId: flow.workflowId,
+                  url: `https://oa.guoxinweiye.com/sp/workflow/flowpage/create/${flow.workflowId}`,
+                  icon: 'fa-file-text-o'  // 默认图标
+                }));
+                result.push({
+                  categoryName: category.name,
+                  flows: formattedFlows
+                });
+              }
+
+              // 保存结果到JSON文件
+              fs.writeFileSync('weaver-flows.json', JSON.stringify(result, null, 2));
+              console.log('数据获取成功，已生成weaver-flows.json');
+            } catch (error) {
+              console.error('执行失败：', error.message);
+              process.exit(1);
+            }
+          }
+
+          // 执行主函数
+          main();
+          EOF
+
+          # 安装依赖并执行脚本
+          npm install axios
+          node fetch-weaver.js
+        env:
+          WEAVER_BASE_URL: ${{ secrets.WEAVER_BASE_URL }}
+          WEAVER_CORPID: ${{ secrets.WEAVER_CORPID }}
+          WEAVER_APP_KEY: ${{ secrets.WEAVER_APP_KEY }}
+          WEAVER_APP_SECRET: ${{ secrets.WEAVER_APP_SECRET }}
+          WEAVER_USERID: ${{ secrets.WEAVER_USERID }}
+
+      - name: 提交更新
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add weaver-flows.json
+          if git diff --staged --quiet; then
+            echo "数据无更新，无需提交"
+          else
+            git commit -m "自动更新泛微流程数据 $(date +'%Y-%m-%d')"
+            git push
+          fi
