@@ -70,6 +70,12 @@ function generateCategoryTags(data) {
             child.remove();
         }
     });
+
+    const allBtn = document.querySelector('.category-btn[data-category="all"]');
+    if (allBtn && !allBtn.hasEventListener) {
+        allBtn.addEventListener('click', () => handleCategoryChange('all'));
+        allBtn.hasEventListener = true;
+    }
     
     // 添加新的分类标签
     data.forEach(category => {
