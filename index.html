@@ -4,30 +4,37 @@
     <meta charset="UTF-8">
     <!-- 核心：手机端适配 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<<<<<<< Updated upstream
     <title>OA工作台</title>
     <!-- 引入图标库（丰富流程图标） -->
+=======
+    <title>泛微OA工作台</title>
+    <!-- 引入图标库 -->
+>>>>>>> Stashed changes
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
-    <!-- 引入Tailwind CSS（快速实现高颜值样式，无需手写复杂CSS） -->
+    <!-- 引入Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        /* 自定义动画：加载过渡、卡片hover效果 */
-        .fade-in { animation: fadeIn 0.5s ease-in-out; }
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-        .card-hover { transition: all 0.3s ease; }
-        .card-hover:hover { transform: translateY(-3px); box-shadow: 0 6px 12px rgba(0,0,0,0.1); }
-    </style>
-    <!-- 配置Tailwind主题（自定义颜色、字体） -->
+    <!-- 引入自定义CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 配置Tailwind主题 -->
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        // 主色调：企业蓝（可根据公司品牌色修改）
+                        // 主色调：企业蓝
                         primary: '#165DFF',
                         // 分类标题色
                         category: '#333333',
                         // 卡片文字色
                         cardText: '#666666',
+                        // 深色模式颜色
+                        dark: {
+                            bg: '#1E1E2E',
+                            card: '#2D2D3F',
+                            text: '#F0F0F7',
+                            category: '#FFFFFF'
+                        }
                     },
                     fontFamily: {
                         sans: ['Microsoft YaHei', 'Arial', 'sans-serif'],
@@ -37,116 +44,68 @@
         }
     </script>
 </head>
-<body class="bg-gray-50 min-h-screen p-4 md:p-6">
-    <!-- 页面标题 -->
-    <div class="text-[clamp(1.5rem,4vw,2rem)] font-bold text-primary mb-6 text-center">
-        <i class="fa fa-briefcase mr-2"></i>泛微OA工作台
+<body class="bg-gray-50 min-h-screen p-4 md:p-6 theme-transition" id="appBody">
+    <!-- 页面标题和操作区 -->
+    <div class="flex flex-col md:flex-row md:items-center justify-between mb-6 gap-4">
+        <div class="text-[clamp(1.5rem,4vw,2rem)] font-bold text-primary">
+            <i class="fa fa-briefcase mr-2"></i>提交申请
+        </div>
+        
+        <div class="flex gap-3">
+            <!-- 搜索框 -->
+            <div class="relative flex-grow max-w-md">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="搜索流程..." 
+                    class="w-full pl-10 pr-4 py-2 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary/50 theme-transition"
+                >
+                <i class="fa fa-search absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
+            </div>
+            
+            <!-- 主题切换按钮 -->
+            <button id="themeToggle" class="p-2 rounded-lg bg-white shadow-sm hover:bg-gray-100 transition theme-transition">
+                <i class="fa fa-moon-o text-gray-600"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- 分类筛选标签 -->
+    <div class="mb-6 overflow-x-auto pb-2" id="categoryFilter">
+        <div class="flex space-x-2 min-w-max">
+            <button class="category-btn px-4 py-2 rounded-full bg-primary text-white whitespace-nowrap" data-category="all">
+                全部
+            </button>
+            <!-- 分类标签将由JS动态生成 -->
+        </div>
     </div>
 
     <!-- 加载中状态 -->
     <div id="loading" class="text-center py-10 fade-in">
         <div class="inline-block animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary mb-4"></div>
-        <p class="text-gray-600">正在加载流程数据...</p>
+        <p class="text-gray-600 theme-transition">正在加载流程数据...</p>
     </div>
 
     <!-- 数据加载失败状态 -->
     <div id="error" class="text-center py-10 hidden fade-in">
         <i class="fa fa-exclamation-circle text-red-500 text-4xl mb-4"></i>
-        <p class="text-gray-600 mb-4">流程数据加载失败</p>
+        <p class="text-gray-600 mb-4 theme-transition">流程数据加载失败</p>
         <button id="retryBtn" class="bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary/90 transition">
             点击重试
         </button>
     </div>
 
+    <!-- 无搜索结果状态 -->
+    <div id="noResults" class="text-center py-10 hidden fade-in">
+        <i class="fa fa-search text-gray-300 text-4xl mb-4"></i>
+        <p class="text-gray-500 theme-transition">未找到匹配的流程</p>
+    </div>
+
     <!-- 流程内容容器（默认隐藏） -->
     <div id="flowContainer" class="hidden"></div>
 
-    <script>
-        // 核心函数：加载并渲染流程数据
-        function loadFlowData() {
-            // 显示加载中，隐藏其他状态
-            document.getElementById('loading').classList.remove('hidden');
-            document.getElementById('error').classList.add('hidden');
-            document.getElementById('flowContainer').classList.add('hidden');
-
-            // 读取weaver-flows.json数据
-            fetch('weaver-flows.json')
-                .then(response => {
-                    if (!response.ok) throw new Error(`HTTP错误：${response.status}`);
-                    return response.json();
-                })
-                .then(data => {
-                    const container = document.getElementById('flowContainer');
-                    container.innerHTML = ''; // 清空容器
-
-                    // 遍历每个流程分类
-                    data.forEach((category, categoryIndex) => {
-                        // 跳过无流程的分类
-                        if (category.flows.length === 0) return;
-
-                        // 1. 创建分类标题栏
-                        const categoryTitle = document.createElement('div');
-                        categoryTitle.className = 'flex items-center mb-4 mt-8 first:mt-0 fade-in';
-                        categoryTitle.style.animationDelay = `${categoryIndex * 0.1}s`; // 分类依次出现动画
-                        categoryTitle.innerHTML = `
-                            <div class="w-1 h-6 bg-primary rounded-full mr-3"></div>
-                            <h2 class="text-xl font-semibold text-category">${category.categoryName}</h2>
-                        `;
-                        container.appendChild(categoryTitle);
-
-                        // 2. 创建流程卡片容器（每行2个卡片）
-                        const cardContainer = document.createElement('div');
-                        cardContainer.className = 'grid grid-cols-2 gap-4 md:gap-6';
-                        container.appendChild(cardContainer);
-
-                        // 3. 遍历分类下的流程，创建卡片
-                        category.flows.forEach((flow, flowIndex) => {
-                            const card = document.createElement('a');
-                            card.href = flow.url; // 跳转链接
-                            card.target = '_self'; // 在当前窗口打开（适配企业微信）
-                            card.className = 'bg-white rounded-xl shadow-sm p-4 card-hover fade-in';
-                            // 卡片依次出现动画（延迟递增，更自然）
-                            card.style.animationDelay = `${categoryIndex * 0.1 + flowIndex * 0.05}s`;
-                            
-                            // 为不同类型流程匹配不同图标（提升辨识度）
-                            let flowIcon = 'fa-file-text-o'; // 默认图标
-                            const flowName = flow.name.toLowerCase();
-                            if (flowName.includes('请假')) flowIcon = 'fa-calendar-check-o';
-                            else if (flowName.includes('采购')) flowIcon = 'fa-shopping-cart';
-                            else if (flowName.includes('用印')) flowIcon = 'fa-stamp';
-                            else if (flowName.includes('报销')) flowIcon = 'fa-credit-card';
-                            else if (flowName.includes('出差')) flowIcon = 'fa-plane';
-
-                            // 卡片内容
-                            card.innerHTML = `
-                                <div class="flex flex-col items-center text-center">
-                                    <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary text-xl mb-3">
-                                        <i class="fa ${flowIcon}"></i>
-                                    </div>
-                                    <p class="text-cardText text-sm md:text-base line-clamp-2">${flow.name}</p>
-                                </div>
-                            `;
-                            cardContainer.appendChild(card);
-                        });
-                    });
-
-                    // 数据渲染完成：显示内容，隐藏加载中
-                    document.getElementById('loading').classList.add('hidden');
-                    document.getElementById('flowContainer').classList.remove('hidden');
-                })
-                .catch(error => {
-                    console.error('加载失败原因：', error);
-                    // 显示错误状态，隐藏加载中
-                    document.getElementById('loading').classList.add('hidden');
-                    document.getElementById('error').classList.remove('hidden');
-                });
-        }
-
-        // 页面加载完成后立即加载数据
-        window.onload = loadFlowData;
-
-        // 重试按钮点击事件
-        document.getElementById('retryBtn').addEventListener('click', loadFlowData);
-    </script>
+    <!-- 引入自定义JS -->
+    <script src="js/main.js"></script>
 </body>
 </html>
+    
