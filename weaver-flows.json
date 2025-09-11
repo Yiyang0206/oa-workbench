@@ -1,21 +1,5 @@
 [
   {
-    "categoryName": "资产管理",
-    "flows": []
-  },
-  {
-    "categoryName": "文书定-档案管理",
-    "flows": []
-  },
-  {
-    "categoryName": "招聘管理",
-    "flows": []
-  },
-  {
-    "categoryName": "绩效考核",
-    "flows": []
-  },
-  {
     "categoryName": "人事类",
     "flows": [
       {
@@ -72,9 +56,5 @@
         "icon": "fa-file-text-o"
       }
     ]
-  },
-  {
-    "categoryName": "其它",
-    "flows": []
   }
 ]
