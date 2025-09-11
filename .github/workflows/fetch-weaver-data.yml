@@ -79,19 +79,44 @@ jobs:
           }
 
           // 步骤4：根据分类ID查询流程
+          // 步骤4：调用新接口（getBaseInfoByCondition），按“启用状态”筛选流程
           async function getFlowsByCategory(accessToken, categoryId) {
-            const url = `${config.baseUrl}/papi/openapi/workflow/v2/getFormByCategoryId`;
-            const params = {
-              access_token: accessToken,
-              userid: config.userId,
-              categoryId: categoryId
+            const url = `${config.baseUrl}/api/workflow/pathdef/openapi/getBaseInfoByCondition`;
+            
+            // 2. 请求参数（按新接口要求调整，重点添加status=1筛选启用流程）
+            const requestData = {
+              access_token: accessToken,    // 必选：接口凭证
+              userid: config.userId,        // 必选：用户ID
+              workflowType: categoryId,     // 关键：用原“分类ID”对应新接口的“workflowType”（按泛微接口规则映射）
+              status: 1,                    // 核心筛选：只查“启用”的流程（1=启用，5=停用，9=模板）
             };
-            const res = await axios.get(url, { params });
-            if (res.data.message?.errcode !== '0') {
-              throw new Error(`获取流程失败（分类ID: ${categoryId}）：${res.data.message?.errmsg || '未知错误'}`);
+          
+            try {
+              const res = await axios.post(url, requestData, {
+                headers: { 'Content-Type': 'application/json' }  // 必选：POST请求需指定JSON格式
+              });
+          
+              if (res.data.message?.errcode !== '0') {
+                throw new Error(`获取流程失败（分类ID: ${categoryId}）：${res.data.message?.errmsg || '未知错误'}`);
+              }
+          
+              const enabledFlows = res.data.baseInfoList.map(flow => ({
+                name: flow.workflowName,                // 流程名称（新接口字段：workflowName）
+                workflowId: flow.id,                    // 流程ID（新接口字段：id）
+                // 跳转链接：按你原逻辑的格式保留，确保前端点击能正常跳转
+                url: `https://oa.guoxinweiye.com/sp/workflow/flowpage/create/${flow.id}`,
+              }));
+          
+              return enabledFlows;  // 返回筛选后的“启用流程列表”
+            } catch (error) {
+              if (error.message.includes('无匹配数据')) {
+                console.log(`分类ID: ${categoryId} 无启用流程，跳过`);
+                return [];
+              }
+              throw error;  // 其他错误正常抛出
             }
-            return res.data.forms || [];
           }
+
 
           // 主函数：串联所有步骤
           async function main() {
