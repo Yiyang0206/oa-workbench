@@ -2,100 +2,151 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <!-- 适配手机屏幕（必须） -->
+    <!-- 核心：手机端适配 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>OA工作台</title>
+    <title>泛微OA工作台</title>
+    <!-- 引入图标库（丰富流程图标） -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+    <!-- 引入Tailwind CSS（快速实现高颜值样式，无需手写复杂CSS） -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* 基础样式：清除默认边距，统一字体 */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: "Microsoft YaHei", sans-serif;
-        }
-        /* 页面背景色 */
-        body {
-            background-color: #f5f7fa;
-            padding: 15px;
-        }
-        /* 模块标题样式（如“人事行政类”） */
-        .module-title {
-            font-size: 16px;
-            color: #333;
-            margin: 20px 0 10px 0;
-            font-weight: 600;
-        }
-        /* 菜单卡片容器：每行2个卡片 */
-        .menu-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px; /* 卡片之间的间距 */
-        }
-        /* 菜单卡片样式（点击跳转） */
-        .menu-card {
-            width: calc(50% - 7.5px); /* 让2个卡片占满一行，减去间距 */
-            background-color: white;
-            border-radius: 10px; /* 圆角 */
-            padding: 20px 10px;
-            text-align: center;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* 轻微阴影，更立体 */
-            cursor: pointer; /* 鼠标悬浮时显示“手”型 */
-        }
-        /* 卡片图标样式 */
-        .menu-icon {
-            width: 40px;
-            height: 40px;
-            margin: 0 auto 10px; /* 图标居中，下方留间距 */
-            background-color: #4285f4; /* 蓝色图标背景（可修改） */
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white; /* 图标颜色 */
-            font-size: 20px;
-        }
-        /* 卡片文字样式 */
-        .menu-text {
-            font-size: 14px;
-            color: #333;
-        }
-        /* 适配小屏幕（防止卡片变形） */
-        @media (max-width: 320px) {
-            .menu-card {
-                width: 100%; /* 屏幕过小时，1个卡片占一行 */
+        /* 自定义动画：加载过渡、卡片hover效果 */
+        .fade-in { animation: fadeIn 0.5s ease-in-out; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-3px); box-shadow: 0 6px 12px rgba(0,0,0,0.1); }
+    </style>
+    <!-- 配置Tailwind主题（自定义颜色、字体） -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        // 主色调：企业蓝（可根据公司品牌色修改）
+                        primary: '#165DFF',
+                        // 分类标题色
+                        category: '#333333',
+                        // 卡片文字色
+                        cardText: '#666666',
+                    },
+                    fontFamily: {
+                        sans: ['Microsoft YaHei', 'Arial', 'sans-serif'],
+                    },
+                }
             }
         }
-    </style>
-    <!-- 引入图标库（无需额外下载，直接用） -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+    </script>
 </head>
-<body>
-    <!-- 第一个模块：人事行政类 -->
-    <div class="module-title">人事行政类</div>
-    <div class="menu-container">
-        <!-- 请假申请卡片（点击跳转泛微链接） -->
-        <a href="https://oa.guoxinweiye.com/mobile/ebdpage/view/1178342518396805121" target="_self" style="text-decoration: none;">
-            <div class="menu-card">
-                <div class="menu-icon">
-                    <i class="fa fa-calendar-check-o"></i> <!-- 日历图标（可替换） -->
-                </div>
-                <div class="menu-text">人事行政申请</div>
-            </div>
-        </a>
+<body class="bg-gray-50 min-h-screen p-4 md:p-6">
+    <!-- 页面标题 -->
+    <div class="text-[clamp(1.5rem,4vw,2rem)] font-bold text-primary mb-6 text-center">
+        <i class="fa fa-briefcase mr-2"></i>泛微OA工作台
     </div>
 
-    <!-- 第二个模块：其他类 -->
-    <div class="module-title">其他类</div>
-    <div class="menu-container">
-        <!-- 测试申请卡片（点击跳转泛微链接） -->
-        <a href="https://oa.guoxinweiye.com/mobile/ebdpage/view/1167284442278068225" target="_self" style="text-decoration: none;">
-            <div class="menu-card">
-                <div class="menu-icon" style="background-color: #34a853;"> <!-- 绿色图标背景（可修改） -->
-                    <i class="fa fa-flask"></i> <!-- 测试瓶图标（可替换） -->
-                </div>
-                <div class="menu-text">测试申请</div>
-            </div>
-        </a>
+    <!-- 加载中状态 -->
+    <div id="loading" class="text-center py-10 fade-in">
+        <div class="inline-block animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary mb-4"></div>
+        <p class="text-gray-600">正在加载流程数据...</p>
     </div>
+
+    <!-- 数据加载失败状态 -->
+    <div id="error" class="text-center py-10 hidden fade-in">
+        <i class="fa fa-exclamation-circle text-red-500 text-4xl mb-4"></i>
+        <p class="text-gray-600 mb-4">流程数据加载失败</p>
+        <button id="retryBtn" class="bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary/90 transition">
+            点击重试
+        </button>
+    </div>
+
+    <!-- 流程内容容器（默认隐藏） -->
+    <div id="flowContainer" class="hidden"></div>
+
+    <script>
+        // 核心函数：加载并渲染流程数据
+        function loadFlowData() {
+            // 显示加载中，隐藏其他状态
+            document.getElementById('loading').classList.remove('hidden');
+            document.getElementById('error').classList.add('hidden');
+            document.getElementById('flowContainer').classList.add('hidden');
+
+            // 读取weaver-flows.json数据
+            fetch('weaver-flows.json')
+                .then(response => {
+                    if (!response.ok) throw new Error(`HTTP错误：${response.status}`);
+                    return response.json();
+                })
+                .then(data => {
+                    const container = document.getElementById('flowContainer');
+                    container.innerHTML = ''; // 清空容器
+
+                    // 遍历每个流程分类
+                    data.forEach((category, categoryIndex) => {
+                        // 跳过无流程的分类
+                        if (category.flows.length === 0) return;
+
+                        // 1. 创建分类标题栏
+                        const categoryTitle = document.createElement('div');
+                        categoryTitle.className = 'flex items-center mb-4 mt-8 first:mt-0 fade-in';
+                        categoryTitle.style.animationDelay = `${categoryIndex * 0.1}s`; // 分类依次出现动画
+                        categoryTitle.innerHTML = `
+                            <div class="w-1 h-6 bg-primary rounded-full mr-3"></div>
+                            <h2 class="text-xl font-semibold text-category">${category.categoryName}</h2>
+                        `;
+                        container.appendChild(categoryTitle);
+
+                        // 2. 创建流程卡片容器（每行2个卡片）
+                        const cardContainer = document.createElement('div');
+                        cardContainer.className = 'grid grid-cols-2 gap-4 md:gap-6';
+                        container.appendChild(cardContainer);
+
+                        // 3. 遍历分类下的流程，创建卡片
+                        category.flows.forEach((flow, flowIndex) => {
+                            const card = document.createElement('a');
+                            card.href = flow.url; // 跳转链接
+                            card.target = '_self'; // 在当前窗口打开（适配企业微信）
+                            card.className = 'bg-white rounded-xl shadow-sm p-4 card-hover fade-in';
+                            // 卡片依次出现动画（延迟递增，更自然）
+                            card.style.animationDelay = `${categoryIndex * 0.1 + flowIndex * 0.05}s`;
+                            
+                            // 为不同类型流程匹配不同图标（提升辨识度）
+                            let flowIcon = 'fa-file-text-o'; // 默认图标
+                            const flowName = flow.name.toLowerCase();
+                            if (flowName.includes('请假')) flowIcon = 'fa-calendar-check-o';
+                            else if (flowName.includes('采购')) flowIcon = 'fa-shopping-cart';
+                            else if (flowName.includes('用印')) flowIcon = 'fa-stamp';
+                            else if (flowName.includes('报销')) flowIcon = 'fa-credit-card';
+                            else if (flowName.includes('出差')) flowIcon = 'fa-plane';
+
+                            // 卡片内容
+                            card.innerHTML = `
+                                <div class="flex flex-col items-center text-center">
+                                    <div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary text-xl mb-3">
+                                        <i class="fa ${flowIcon}"></i>
+                                    </div>
+                                    <p class="text-cardText text-sm md:text-base line-clamp-2">${flow.name}</p>
+                                </div>
+                            `;
+                            cardContainer.appendChild(card);
+                        });
+                    });
+
+                    // 数据渲染完成：显示内容，隐藏加载中
+                    document.getElementById('loading').classList.add('hidden');
+                    document.getElementById('flowContainer').classList.remove('hidden');
+                })
+                .catch(error => {
+                    console.error('加载失败原因：', error);
+                    // 显示错误状态，隐藏加载中
+                    document.getElementById('loading').classList.add('hidden');
+                    document.getElementById('error').classList.remove('hidden');
+                });
+        }
+
+        // 页面加载完成后立即加载数据
+        window.onload = loadFlowData;
+
+        // 重试按钮点击事件
+        document.getElementById('retryBtn').addEventListener('click', loadFlowData);
+    </script>
 </body>
 </html>
