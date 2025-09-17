@@ -56,5 +56,16 @@
         "icon": "fa-file-text-o"
       }
     ]
+  },
+  {
+    "categoryName": "其它",
+    "flows": [
+      {
+        "name": "测试",
+        "workflowId": "1165369333490319363",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1165369333490319363",
+        "icon": "fa-file-text-o"
+      }
+    ]
   }
 ]
