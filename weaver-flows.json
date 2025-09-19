@@ -43,6 +43,12 @@
         "workflowId": "1173237885443850243",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1173237885443850243",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "行政采购申请",
+        "workflowId": "1181058080180789252",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1181058080180789252",
+        "icon": "fa-file-text-o"
       }
     ]
   },
@@ -64,6 +70,12 @@
         "name": "测试",
         "workflowId": "1165369333490319363",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1165369333490319363",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "行政采购申请",
+        "workflowId": "1181056937744654338",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1181056937744654338",
         "icon": "fa-file-text-o"
       }
     ]
