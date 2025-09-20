@@ -49,6 +49,30 @@
         "workflowId": "1181058080180789252",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1181058080180789252",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "用章申请",
+        "workflowId": "1181313652360732755",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1181313652360732755",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "用车申请",
+        "workflowId": "1181315181260038147",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1181315181260038147",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "内部联络函",
+        "workflowId": "1181318063216648201",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1181318063216648201",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "会议管理流程",
+        "workflowId": "1181328783538905090",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1181328783538905090",
+        "icon": "fa-file-text-o"
       }
     ]
   },
@@ -64,18 +88,35 @@
     ]
   },
   {
+    "categoryName": "财务类",
+    "flows": [
+      {
+        "name": "借款申请单",
+        "workflowId": "1181313201456275539",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1181313201456275539",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "费用报销流程",
+        "workflowId": "1181324557140090962",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1181324557140090962",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "付款申请单",
+        "workflowId": "1181377475574751245",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1181377475574751245",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
     "categoryName": "其它",
     "flows": [
       {
         "name": "测试",
         "workflowId": "1165369333490319363",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1165369333490319363",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "行政采购申请",
-        "workflowId": "1181056937744654338",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1181056937744654338",
         "icon": "fa-file-text-o"
       }
     ]
