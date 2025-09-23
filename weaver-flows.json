@@ -107,6 +107,30 @@
         "workflowId": "1181377475574751245",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1181377475574751245",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "供应链付款申请单-主",
+        "workflowId": "1182430021777088594",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1182430021777088594",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "供应链付款流程-子",
+        "workflowId": "1182433689637216338",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1182433689637216338",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "差旅费报销单",
+        "workflowId": "1182439822842126425",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1182439822842126425",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "招待费用申请",
+        "workflowId": "1182449263197020243",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1182449263197020243",
+        "icon": "fa-file-text-o"
       }
     ]
   },
