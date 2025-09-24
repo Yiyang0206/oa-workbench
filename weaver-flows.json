@@ -131,6 +131,12 @@
         "workflowId": "1182449263197020243",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1182449263197020243",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "其他费用申请",
+        "workflowId": "1182798787492962386",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1182798787492962386",
+        "icon": "fa-file-text-o"
       }
     ]
   },
