@@ -73,6 +73,24 @@
         "workflowId": "1181328783538905090",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1181328783538905090",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "招聘需求流程",
+        "workflowId": "1183601770401095762",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1183601770401095762",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "固定资产领取流程",
+        "workflowId": "1183612026707501154",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1183612026707501154",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "销售绩效",
+        "workflowId": "1183638835935305811",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1183638835935305811",
+        "icon": "fa-file-text-o"
       }
     ]
   },
