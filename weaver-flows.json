@@ -3,12 +3,6 @@
     "categoryName": "人事类",
     "flows": [
       {
-        "name": "请假申请",
-        "workflowId": "1157577841996341251",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1157577841996341251",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "加班申请",
         "workflowId": "1157656620345204826",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1157656620345204826",
@@ -91,6 +85,12 @@
         "workflowId": "1183638835935305811",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1183638835935305811",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "请假申请",
+        "workflowId": "1185109162155753473",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1185109162155753473",
+        "icon": "fa-file-text-o"
       }
     ]
   },
@@ -154,6 +154,17 @@
         "name": "其他费用申请",
         "workflowId": "1182798787492962386",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1182798787492962386",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
+    "categoryName": "研发",
+    "flows": [
+      {
+        "name": "研发设计评审流程",
+        "workflowId": "1185134386523848707",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1185134386523848707",
         "icon": "fa-file-text-o"
       }
     ]
