@@ -166,6 +166,30 @@
         "workflowId": "1185134386523848707",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1185134386523848707",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "BOM评审流程",
+        "workflowId": "1188802773903876105",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1188802773903876105",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "物料编码创建流程",
+        "workflowId": "1188818424798257231",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1188818424798257231",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "研发其他制作流程",
+        "workflowId": "1188834071238287438",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1188834071238287438",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "研发自制流程",
+        "workflowId": "1188840878971166799",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1188840878971166799",
+        "icon": "fa-file-text-o"
       }
     ]
   },
