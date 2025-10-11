@@ -190,6 +190,24 @@
         "workflowId": "1188840878971166799",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1188840878971166799",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "样品承认申请",
+        "workflowId": "1189124127609987116",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1189124127609987116",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "ECR工程变更申请单",
+        "workflowId": "1189135990435487820",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1189135990435487820",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "ECN工程变更通知单",
+        "workflowId": "1189205959592124494",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1189205959592124494",
+        "icon": "fa-file-text-o"
       }
     ]
   },
