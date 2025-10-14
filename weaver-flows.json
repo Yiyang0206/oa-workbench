@@ -102,6 +102,36 @@
         "workflowId": "1175033323582996490",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1175033323582996490",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "发票开具申请",
+        "workflowId": "1190288970156875854",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1190288970156875854",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "客户返利申请",
+        "workflowId": "1190292968763039822",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1190292968763039822",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "定价流程",
+        "workflowId": "1190305724723634255",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1190305724723634255",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "项目立项",
+        "workflowId": "1190342107324489739",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1190342107324489739",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "客户投诉信息记录",
+        "workflowId": "1190344358063513601",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1190344358063513601",
+        "icon": "fa-file-text-o"
       }
     ]
   },
