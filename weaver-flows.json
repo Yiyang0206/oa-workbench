@@ -242,6 +242,41 @@
     ]
   },
   {
+    "categoryName": "供应链",
+    "flows": [
+      {
+        "name": "物料备货申请",
+        "workflowId": "1190601072444710990",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1190601072444710990",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "EMC测试申请",
+        "workflowId": "1190619467806416975",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1190619467806416975",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "物料盘盈盘亏申请",
+        "workflowId": "1190625626688856143",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1190625626688856143",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "物料报废申请单",
+        "workflowId": "1190661304990572623",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1190661304990572623",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "物料请购",
+        "workflowId": "1190672291667910657",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1190672291667910657",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
     "categoryName": "其它",
     "flows": [
       {
