@@ -263,15 +263,39 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "物料报废申请单",
+        "name": "物料报废申请",
         "workflowId": "1190661304990572623",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1190661304990572623",
         "icon": "fa-file-text-o"
       },
       {
-        "name": "物料请购",
+        "name": "物料请购单",
         "workflowId": "1190672291667910657",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1190672291667910657",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "物料定价申请",
+        "workflowId": "1190956206110548055",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1190956206110548055",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "材料出库申请",
+        "workflowId": "1190961149676625998",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1190961149676625998",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "其他入库申请",
+        "workflowId": "1190964834590793806",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1190964834590793806",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "物料调拨申请",
+        "workflowId": "1190967570577235969",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1190967570577235969",
         "icon": "fa-file-text-o"
       }
     ]
