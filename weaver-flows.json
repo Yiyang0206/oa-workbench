@@ -51,12 +51,6 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "用车申请",
-        "workflowId": "1181315181260038147",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1181315181260038147",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "内部联络函",
         "workflowId": "1181318063216648201",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1181318063216648201",
@@ -90,6 +84,12 @@
         "name": "请假申请",
         "workflowId": "1185109162155753473",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1185109162155753473",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "用车申请",
+        "workflowId": "1193278211370811393",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1193278211370811393",
         "icon": "fa-file-text-o"
       }
     ]
@@ -131,6 +131,18 @@
         "name": "客户投诉信息记录",
         "workflowId": "1190344358063513601",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1190344358063513601",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "产品报价",
+        "workflowId": "1193271412471136335",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1193271412471136335",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "订单评审",
+        "workflowId": "1193290662581665871",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1193290662581665871",
         "icon": "fa-file-text-o"
       }
     ]
