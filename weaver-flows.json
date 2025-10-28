@@ -364,6 +364,23 @@
     ]
   },
   {
+    "categoryName": "质量",
+    "flows": [
+      {
+        "name": "来料检验流程 ",
+        "workflowId": "1195479218857082881",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1195479218857082881",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "散热风扇出库检验",
+        "workflowId": "1195479300713119752",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1195479300713119752",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
     "categoryName": "其它",
     "flows": [
       {
