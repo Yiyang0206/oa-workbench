@@ -326,13 +326,13 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "研发自制流程（备货、客户送样和客户订单）",
+        "name": "研发自制流程",
         "workflowId": "1188834071238287438",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1188834071238287438",
         "icon": "fa-file-text-o"
       },
       {
-        "name": "研发自制流程",
+        "name": "研发自制流程（备货、客户送样和客户订单）",
         "workflowId": "1188840878971166799",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1188840878971166799",
         "icon": "fa-file-text-o"
