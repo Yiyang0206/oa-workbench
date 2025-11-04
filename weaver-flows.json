@@ -95,6 +95,12 @@
         "workflowId": "1191801184977453061",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1191801184977453061",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "费用报销流程1",
+        "workflowId": "1194363730118737920",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1194363730118737920",
+        "icon": "fa-file-text-o"
       }
     ]
   },
@@ -226,9 +232,9 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "客户样品制作",
-        "workflowId": "1193660347705753678",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1193660347705753678",
+        "name": "客户送样申请",
+        "workflowId": "1198014787201957966",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1198014787201957966",
         "icon": "fa-file-text-o"
       }
     ]
@@ -326,13 +332,13 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "研发自制流程",
+        "name": "研发其他自制流程",
         "workflowId": "1188834071238287438",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1188834071238287438",
         "icon": "fa-file-text-o"
       },
       {
-        "name": "研发自制流程（备货、客户送样和客户订单）",
+        "name": "研发自制流程（备货、客户订单）",
         "workflowId": "1188840878971166799",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1188840878971166799",
         "icon": "fa-file-text-o"
@@ -353,6 +359,18 @@
         "name": "ECN工程变更通知单",
         "workflowId": "1189205959592124494",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1189205959592124494",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "客户样品制作申请（吸尘器/吹气枪）",
+        "workflowId": "1193660347705753678",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1193660347705753678",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "客户样品制作申请（吹风筒）",
+        "workflowId": "1198081625667567695",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1198081625667567695",
         "icon": "fa-file-text-o"
       }
     ]
