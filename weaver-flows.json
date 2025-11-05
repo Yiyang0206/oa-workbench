@@ -155,15 +155,15 @@
     "categoryName": "人事类",
     "flows": [
       {
-        "name": "招聘需求流程",
-        "workflowId": "1183601770401095762",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1183601770401095762",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "销售绩效",
         "workflowId": "1183638835935305811",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1183638835935305811",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "招聘需求流程",
+        "workflowId": "1198472682372759555",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1198472682372759555",
         "icon": "fa-file-text-o"
       }
     ]
@@ -391,7 +391,7 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "产品出库检验",
+        "name": "产品出库检验（标准）",
         "workflowId": "1195783272627863552",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1195783272627863552",
         "icon": "fa-file-text-o"
@@ -418,6 +418,12 @@
         "name": "不良报废",
         "workflowId": "1195892579444883534",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1195892579444883534",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "产品出库检验（非标准）",
+        "workflowId": "1198447243373740033",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1198447243373740033",
         "icon": "fa-file-text-o"
       }
     ]
