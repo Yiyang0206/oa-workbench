@@ -214,7 +214,7 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "订单评审",
+        "name": "订单评审1",
         "workflowId": "1193290662581665871",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1193290662581665871",
         "icon": "fa-file-text-o"
@@ -236,18 +236,18 @@
         "workflowId": "1198014787201957966",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1198014787201957966",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "订单评审",
+        "workflowId": "1198764800303595530",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1198764800303595530",
+        "icon": "fa-file-text-o"
       }
     ]
   },
   {
     "categoryName": "供应链",
     "flows": [
-      {
-        "name": "物料备货申请",
-        "workflowId": "1190601072444710990",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1190601072444710990",
-        "icon": "fa-file-text-o"
-      },
       {
         "name": "EMC测试申请",
         "workflowId": "1190619467806416975",
@@ -306,6 +306,12 @@
         "name": "研发样品申请",
         "workflowId": "1191367376214696014",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1191367376214696014",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "物料备货申请",
+        "workflowId": "1198751734853697539",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1198751734853697539",
         "icon": "fa-file-text-o"
       }
     ]
@@ -372,6 +378,12 @@
         "workflowId": "1198081625667567695",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1198081625667567695",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "物料信息更新",
+        "workflowId": "1198881954134917198",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1198881954134917198",
+        "icon": "fa-file-text-o"
       }
     ]
   },
@@ -429,12 +441,29 @@
     ]
   },
   {
+    "categoryName": "假勤",
+    "flows": [
+      {
+        "name": "加班申请",
+        "workflowId": "1198869288326692865",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1198869288326692865",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
     "categoryName": "其它",
     "flows": [
       {
         "name": "测试",
         "workflowId": "1165369333490319363",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1165369333490319363",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "请假申请（测试）",
+        "workflowId": "1198849411134160922",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1198849411134160922",
         "icon": "fa-file-text-o"
       }
     ]
