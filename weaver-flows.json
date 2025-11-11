@@ -148,12 +148,6 @@
         "workflowId": "1193278211370811393",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1193278211370811393",
         "icon": "fa-file-text-o"
-      },
-      {
-        "name": "工作汇报",
-        "workflowId": "1199578885616099329",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1199578885616099329",
-        "icon": "fa-file-text-o"
       }
     ]
   },
@@ -381,8 +375,8 @@
       },
       {
         "name": "物料编码创建流程",
-        "workflowId": "1199233797744549889",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1199233797744549889",
+        "workflowId": "1200690702182572034",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1200690702182572034",
         "icon": "fa-file-text-o"
       }
     ]
