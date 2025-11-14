@@ -236,6 +236,12 @@
         "workflowId": "1201361490191638530",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1201361490191638530",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "特批定价流程",
+        "workflowId": "1201830157157195777",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1201830157157195777",
+        "icon": "fa-file-text-o"
       }
     ]
   },
