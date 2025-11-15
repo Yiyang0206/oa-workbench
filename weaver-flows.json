@@ -313,6 +313,12 @@
         "workflowId": "1199579770270310410",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1199579770270310410",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "借料申请",
+        "workflowId": "1202162565966520320",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1202162565966520320",
+        "icon": "fa-file-text-o"
       }
     ]
   },
