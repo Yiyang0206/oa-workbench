@@ -243,12 +243,6 @@
     "categoryName": "供应链",
     "flows": [
       {
-        "name": "EMC测试申请",
-        "workflowId": "1190619467806416975",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1190619467806416975",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "物料盘盈盘亏申请",
         "workflowId": "1190625626688856143",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1190625626688856143",
@@ -291,12 +285,6 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "供应链采购申请",
-        "workflowId": "1199509105114669057",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1199509105114669057",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "材料出库申请",
         "workflowId": "1199579770270310410",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1199579770270310410",
@@ -312,6 +300,18 @@
         "name": "物料请购单",
         "workflowId": "1203969690711678978",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1203969690711678978",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "EMC测试申请",
+        "workflowId": "1205798230029557760",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1205798230029557760",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "供应链采购申请",
+        "workflowId": "1205806270258667530",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1205806270258667530",
         "icon": "fa-file-text-o"
       }
     ]
@@ -383,6 +383,12 @@
         "name": "物料编码创建流程",
         "workflowId": "1200690702182572034",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1200690702182572034",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "临时物料编码创建",
+        "workflowId": "1205909645902012416",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1205909645902012416",
         "icon": "fa-file-text-o"
       }
     ]
