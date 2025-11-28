@@ -214,18 +214,6 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "客户送样申请",
-        "workflowId": "1198014787201957966",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1198014787201957966",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "订单评审",
-        "workflowId": "1199613318301802497",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1199613318301802497",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "项目立项",
         "workflowId": "1201361490191638530",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1201361490191638530",
@@ -235,6 +223,18 @@
         "name": "特批定价流程",
         "workflowId": "1206268464532348928",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1206268464532348928",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "客户送样申请",
+        "workflowId": "1207018086628261889",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1207018086628261889",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "订单评审",
+        "workflowId": "1207019272014069773",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1207019272014069773",
         "icon": "fa-file-text-o"
       }
     ]
@@ -285,12 +285,6 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "材料出库申请",
-        "workflowId": "1199579770270310410",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1199579770270310410",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "借料申请",
         "workflowId": "1202162565966520320",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1202162565966520320",
@@ -312,6 +306,12 @@
         "name": "供应链采购申请",
         "workflowId": "1205806270258667530",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1205806270258667530",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "材料出库申请",
+        "workflowId": "1207021548329959425",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1207021548329959425",
         "icon": "fa-file-text-o"
       }
     ]
@@ -563,6 +563,12 @@
         "name": "请假申请（测试）",
         "workflowId": "1198849411134160922",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1198849411134160922",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "测试123",
+        "workflowId": "1207025577210609665",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1207025577210609665",
         "icon": "fa-file-text-o"
       }
     ]
