@@ -447,7 +447,7 @@
     ]
   },
   {
-    "categoryName": "假勤",
+    "categoryName": "假勤类",
     "flows": [
       {
         "name": "加班申请",
@@ -551,6 +551,178 @@
     ]
   },
   {
+    "categoryName": "市场类",
+    "flows": [
+      {
+        "name": "发票开具申请",
+        "workflowId": "1212485313817149441",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212485313817149441",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
+    "categoryName": "财务类",
+    "flows": [
+      {
+        "name": "付款申请",
+        "workflowId": "1212489724782116865",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212489724782116865",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "费用报销",
+        "workflowId": "1212490046745280513",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212490046745280513",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "借款申请",
+        "workflowId": "1212490149899993089",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212490149899993089",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
+    "categoryName": "假勤类",
+    "flows": [
+      {
+        "name": "补卡打卡",
+        "workflowId": "1212516735831441410",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212516735831441410",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": " 销假申请",
+        "workflowId": "1212517646255456260",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212517646255456260",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "请假申请",
+        "workflowId": "1212517805303463937",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212517805303463937",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "加班申请",
+        "workflowId": "1212517878217244672",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212517878217244672",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
+    "categoryName": "差旅类",
+    "flows": [
+      {
+        "name": "省内外出",
+        "workflowId": "1212519080942305282",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212519080942305282",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "出差申请",
+        "workflowId": "1212519158251716610",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212519158251716610",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
+    "categoryName": "人事类",
+    "flows": [
+      {
+        "name": "招聘需求流程",
+        "workflowId": "1212520047318335489",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212520047318335489",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
+    "categoryName": "行政类",
+    "flows": [
+      {
+        "name": "证照外借",
+        "workflowId": "1212519304213495817",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212519304213495817",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "行政采购",
+        "workflowId": "1212519377236328450",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212519377236328450",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "用章申请",
+        "workflowId": "1212519471583002625",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212519471583002625",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "内部联络函",
+        "workflowId": "1212519557683675137",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212519557683675137",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "会议管理流程",
+        "workflowId": "1212519776483737644",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212519776483737644",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "固定资产领取流程",
+        "workflowId": "1212519858322997249",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212519858322997249",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "用车申请",
+        "workflowId": "1212519939877044224",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212519939877044224",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
+    "categoryName": "财务类",
+    "flows": [
+      {
+        "name": "付款申请",
+        "workflowId": "1212520296342552576",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212520296342552576",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "费用报销",
+        "workflowId": "1212520403792232449",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212520403792232449",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "借款申请",
+        "workflowId": "1212520502450651136",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212520502450651136",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
+    "categoryName": "市场类",
+    "flows": [
+      {
+        "name": "发票开具申请",
+        "workflowId": "1212520132982800384",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212520132982800384",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
     "categoryName": "其它",
     "flows": [
       {
@@ -569,6 +741,30 @@
         "name": "测试123",
         "workflowId": "1207025577210609665",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1207025577210609665",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "放行条",
+        "workflowId": "1212505998287372288",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212505998287372288",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "晋升述职",
+        "workflowId": "1212506204445802506",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212506204445802506",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "晋升审批",
+        "workflowId": "1212506303313936384",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212506303313936384",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "任命文件审批",
+        "workflowId": "1212506384775708672",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212506384775708672",
         "icon": "fa-file-text-o"
       }
     ]
