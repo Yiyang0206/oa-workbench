@@ -25,6 +25,12 @@
         "workflowId": "1185109162155753473",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1185109162155753473",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "加班申请",
+        "workflowId": "1213629742254850048",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1213629742254850048",
+        "icon": "fa-file-text-o"
       }
     ]
   },
@@ -718,6 +724,75 @@
         "name": "发票开具申请",
         "workflowId": "1212520132982800384",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212520132982800384",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
+    "categoryName": "差旅类 - 罗茨",
+    "flows": [
+      {
+        "name": "省内外出",
+        "workflowId": "1213687174398148610",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1213687174398148610",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "出差申请",
+        "workflowId": "1213687264760233986",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1213687264760233986",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
+    "categoryName": "行政类 - 罗茨",
+    "flows": [
+      {
+        "name": "行政采购",
+        "workflowId": "1213688638965219340",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1213688638965219340",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
+    "categoryName": "财务类 - 罗茨",
+    "flows": [
+      {
+        "name": "借款申请",
+        "workflowId": "1213688819496452097",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1213688819496452097",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "费用报销",
+        "workflowId": "1213688948295139328",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1213688948295139328",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "付款申请单",
+        "workflowId": "1213688991144149141",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1213688991144149141",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "差旅费报销",
+        "workflowId": "1213689729912078336",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1213689729912078336",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "招待费用申请",
+        "workflowId": "1213690271237341184",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1213690271237341184",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "其他费用申请",
+        "workflowId": "1213691185905991689",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1213691185905991689",
         "icon": "fa-file-text-o"
       }
     ]
