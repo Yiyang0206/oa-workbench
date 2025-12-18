@@ -477,6 +477,24 @@
         "workflowId": "1201366614146342913",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1201366614146342913",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "付款申请单(2025-12-17 14:22:24)",
+        "workflowId": "1214412865027432465",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1214412865027432465",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "供应链付款申请单-主(2025-12-17 14:22:24)",
+        "workflowId": "1214412865027432468",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1214412865027432468",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "其他费用申请(2025-12-17 14:22:24)",
+        "workflowId": "1214412865027432469",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1214412865027432469",
+        "icon": "fa-file-text-o"
       }
     ]
   },
@@ -529,6 +547,41 @@
         "name": "来料检验流程 ",
         "workflowId": "1207410801333436427",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1207410801333436427",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
+    "categoryName": "财务类",
+    "flows": [
+      {
+        "name": "付款申请",
+        "workflowId": "1212489724782116865",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212489724782116865",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "费用报销",
+        "workflowId": "1212490046745280513",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212490046745280513",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "借款申请",
+        "workflowId": "1212490149899993089",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212490149899993089",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "招待费用申请(2025-12-17 14:22:24)",
+        "workflowId": "1214412865027432466",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1214412865027432466",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "供应链付款流程-子(2025-12-17 14:22:25)",
+        "workflowId": "1214412865027432470",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1214412865027432470",
         "icon": "fa-file-text-o"
       }
     ]
@@ -644,29 +697,6 @@
         "name": "发票开具申请",
         "workflowId": "1212485313817149441",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212485313817149441",
-        "icon": "fa-file-text-o"
-      }
-    ]
-  },
-  {
-    "categoryName": "财务类",
-    "flows": [
-      {
-        "name": "付款申请",
-        "workflowId": "1212489724782116865",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212489724782116865",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "费用报销",
-        "workflowId": "1212490046745280513",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212490046745280513",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "借款申请",
-        "workflowId": "1212490149899993089",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1212490149899993089",
         "icon": "fa-file-text-o"
       }
     ]
