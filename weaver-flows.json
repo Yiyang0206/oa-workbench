@@ -508,12 +508,6 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "不良索赔",
-        "workflowId": "1195868523349835854",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1195868523349835854",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "不良维修",
         "workflowId": "1195875094700130304",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1195875094700130304",
@@ -547,6 +541,12 @@
         "name": "来料检验流程 ",
         "workflowId": "1207410801333436427",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1207410801333436427",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "不良索赔",
+        "workflowId": "1215212897217536000",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1215212897217536000",
         "icon": "fa-file-text-o"
       }
     ]
