@@ -102,12 +102,6 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "销假申请",
-        "workflowId": "1213989952538476545",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1213989952538476545",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "补卡打卡流程",
         "workflowId": "1213990605230899201",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1213990605230899201",
@@ -479,21 +473,9 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "付款申请单(2025-12-17 14:22:24)",
-        "workflowId": "1214412865027432465",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1214412865027432465",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "供应链付款申请单-主(2025-12-17 14:22:24)",
         "workflowId": "1214412865027432468",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1214412865027432468",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "其他费用申请(2025-12-17 14:22:24)",
-        "workflowId": "1214412865027432469",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1214412865027432469",
         "icon": "fa-file-text-o"
       }
     ]
@@ -786,7 +768,7 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "用章申请",
+        "name": "用章申请-部门",
         "workflowId": "1213991756391186432",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1213991756391186432",
         "icon": "fa-file-text-o"
@@ -814,6 +796,12 @@
         "workflowId": "1213992336136273920",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1213992336136273920",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "用章申请-公司",
+        "workflowId": "1216255019400028162",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216255019400028162",
+        "icon": "fa-file-text-o"
       }
     ]
   },
@@ -824,6 +812,18 @@
         "name": "招聘需求",
         "workflowId": "1213992546606448642",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1213992546606448642",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "岗位说明书",
+        "workflowId": "1216210107111563265",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216210107111563265",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "人员需求申请表",
+        "workflowId": "1216217030422683649",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216217030422683649",
         "icon": "fa-file-text-o"
       }
     ]
