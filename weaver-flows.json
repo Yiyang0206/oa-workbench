@@ -282,12 +282,6 @@
     "categoryName": "市场",
     "flows": [
       {
-        "name": "改价流程",
-        "workflowId": "1175033323582996490",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1175033323582996490",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "发票开具申请",
         "workflowId": "1190288970156875854",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1190288970156875854",
@@ -300,21 +294,9 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "定价流程",
-        "workflowId": "1190305724723634255",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1190305724723634255",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "客户投诉信息记录",
         "workflowId": "1190344358063513601",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1190344358063513601",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "产品报价",
-        "workflowId": "1193271412471136335",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1193271412471136335",
         "icon": "fa-file-text-o"
       },
       {
@@ -336,12 +318,6 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "特批定价流程",
-        "workflowId": "1206268464532348928",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1206268464532348928",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "客户送样申请",
         "workflowId": "1207018086628261889",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1207018086628261889",
@@ -351,6 +327,12 @@
         "name": "订单评审",
         "workflowId": "1207019272014069773",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1207019272014069773",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "产品报价流程",
+        "workflowId": "1222151515685249025",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1222151515685249025",
         "icon": "fa-file-text-o"
       }
     ]
