@@ -1,5 +1,46 @@
 [
   {
+    "categoryName": "SRM供应商关系管理系统",
+    "flows": [
+      {
+        "name": "供应商准入审批流程",
+        "workflowId": "897896285213417473",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/897896285213417473",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "采购申请",
+        "workflowId": "897919314752561152",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/897919314752561152",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "核价流程",
+        "workflowId": "898257354691829761",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/898257354691829761",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "订单审批流程",
+        "workflowId": "898273069948067840",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/898273069948067840",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "外协领料流程",
+        "workflowId": "899297823291203584",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/899297823291203584",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "答疑",
+        "workflowId": "899407366377299968",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/899407366377299968",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
     "categoryName": "假勤类",
     "flows": [
       {
@@ -572,12 +613,6 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "项目物料退库申请",
-        "workflowId": "1216676613574355248",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676613574355248",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "售后现场服务申请",
         "workflowId": "1216676613574355344",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676613574355344",
@@ -605,6 +640,12 @@
         "name": "项目现场临时采购申请",
         "workflowId": "1216676695145177127",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676695145177127",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "物料领用/退回申请",
+        "workflowId": "1222995343514263558",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1222995343514263558",
         "icon": "fa-file-text-o"
       }
     ]
