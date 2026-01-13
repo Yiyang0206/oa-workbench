@@ -25,18 +25,6 @@
         "workflowId": "898273069948067840",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/898273069948067840",
         "icon": "fa-file-text-o"
-      },
-      {
-        "name": "外协领料流程",
-        "workflowId": "899297823291203584",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/899297823291203584",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "答疑",
-        "workflowId": "899407366377299968",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/899407366377299968",
-        "icon": "fa-file-text-o"
       }
     ]
   },
@@ -65,53 +53,6 @@
         "name": "请假申请",
         "workflowId": "1185109162155753473",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1185109162155753473",
-        "icon": "fa-file-text-o"
-      }
-    ]
-  },
-  {
-    "categoryName": "德沃科学-财务类",
-    "flows": [
-      {
-        "name": "客户账期&支付条款审批单",
-        "workflowId": "1216676583316643881",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676583316643881",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "保函申请",
-        "workflowId": "1216676583316643980",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676583316643980",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "还款申请流程",
-        "workflowId": "1216676613574355324",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676613574355324",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "付款申请流程",
-        "workflowId": "1216676613574355340",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676613574355340",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "借款申请流程",
-        "workflowId": "1216676695145177114",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676695145177114",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "费用报销流程",
-        "workflowId": "1216676695145177195",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676695145177195",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "招待申请",
-        "workflowId": "1216676695145177202",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676695145177202",
         "icon": "fa-file-text-o"
       }
     ]
@@ -489,25 +430,7 @@
     "categoryName": "徳沃科学-质量管理",
     "flows": [
       {
-        "name": "质量问题反馈",
-        "workflowId": "1216676583316643892",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676583316643892",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "工厂内部临时作业申请",
-        "workflowId": "1216676583316643894",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676583316643894",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "8D客诉流程",
-        "workflowId": "1216676583316643936",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676583316643936",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "质量问题调查",
+        "name": "质量问题反馈调查",
         "workflowId": "1216676583316643979",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676583316643979",
         "icon": "fa-file-text-o"
@@ -600,48 +523,6 @@
   {
     "categoryName": "徳沃科学-制造行业",
     "flows": [
-      {
-        "name": "项目交付质量检验",
-        "workflowId": "1216676600597176449",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676600597176449",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "研发项目变更申请",
-        "workflowId": "1216676600597176472",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676600597176472",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "售后现场服务申请",
-        "workflowId": "1216676613574355344",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676613574355344",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "控制软件版本升级流程（交付项目）",
-        "workflowId": "1216676630578061414",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676630578061414",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "变更评审申请",
-        "workflowId": "1216676630578061422",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676630578061422",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "标准化BOM变更审批流程",
-        "workflowId": "1216676695145177107",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676695145177107",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "项目现场临时采购申请",
-        "workflowId": "1216676695145177127",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676695145177127",
-        "icon": "fa-file-text-o"
-      },
       {
         "name": "物料领用/退回申请",
         "workflowId": "1222995343514263558",
@@ -914,17 +795,6 @@
         "name": "项目详勘(2026-01-04 13:55:09)",
         "workflowId": "1221085410237603846",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1221085410237603846",
-        "icon": "fa-file-text-o"
-      }
-    ]
-  },
-  {
-    "categoryName": "停用",
-    "flows": [
-      {
-        "name": "测试---补卡打卡流程",
-        "workflowId": "1213990605230899201",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1213990605230899201",
         "icon": "fa-file-text-o"
       }
     ]
@@ -2327,7 +2197,7 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "OA系统流程需求申请(2025-12-23 16:48:15)",
+        "name": "OA系统流程需求申请",
         "workflowId": "1216676695145177215",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676695145177215",
         "icon": "fa-file-text-o"
