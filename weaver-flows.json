@@ -2448,6 +2448,35 @@
     ]
   },
   {
+    "categoryName": "客户管理系统",
+    "flows": [
+      {
+        "name": "合同审批流程",
+        "workflowId": "953943147380154369",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/953943147380154369",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "回款审批流程",
+        "workflowId": "953943224882503682",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/953943224882503682",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "开票审批流程",
+        "workflowId": "953943276349325313",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/953943276349325313",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "市场销售确认表",
+        "workflowId": "1225560169226690560",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1225560169226690560",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
     "categoryName": "其它",
     "flows": [
       {
