@@ -130,12 +130,6 @@
         "workflowId": "1216676695145177193",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676695145177193",
         "icon": "fa-file-text-o"
-      },
-      {
-        "name": "员工请假申请多类型",
-        "workflowId": "1230317403735318608",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1230317403735318608",
-        "icon": "fa-file-text-o"
       }
     ]
   },
