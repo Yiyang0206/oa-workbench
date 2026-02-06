@@ -1888,12 +1888,6 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "话费补贴标准审核流程(2026-01-04 11:53:03)",
-        "workflowId": "1221053786485678184",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1221053786485678184",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "资产报修流程(2026-01-04 11:53:05)",
         "workflowId": "1221053855221932435",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1221053855221932435",
@@ -2379,12 +2373,6 @@
         "workflowId": "1214412865027432466",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1214412865027432466",
         "icon": "fa-file-text-o"
-      },
-      {
-        "name": "供应链付款流程-子(2025-12-17 14:22:25)",
-        "workflowId": "1214412865027432470",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1214412865027432470",
-        "icon": "fa-file-text-o"
       }
     ]
   },
@@ -2437,12 +2425,6 @@
         "name": "费用报销流程",
         "workflowId": "1201366614146342913",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1201366614146342913",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "供应链付款申请单-主(2025-12-17 14:22:24)",
-        "workflowId": "1214412865027432468",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1214412865027432468",
         "icon": "fa-file-text-o"
       }
     ]
