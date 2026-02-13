@@ -2396,7 +2396,7 @@
     "categoryName": "在建设电子流",
     "flows": [
       {
-        "name": "用车登记（调试完毕）",
+        "name": "用车登记（测试完毕）",
         "workflowId": "1234738686069825630",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1234738686069825630",
         "icon": "fa-file-text-o"
@@ -2420,13 +2420,13 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "付款申请（2）",
+        "name": "付款申请（测试完毕）",
         "workflowId": "1234930434867978347",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1234930434867978347",
         "icon": "fa-file-text-o"
       },
       {
-        "name": "工程立项（2）",
+        "name": "基建工程立项",
         "workflowId": "1234941249746624764",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1234941249746624764",
         "icon": "fa-file-text-o"
@@ -2435,6 +2435,36 @@
         "name": "采购立项 - 安全与环保管理部",
         "workflowId": "1235213997316235381",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1235213997316235381",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "质量管理类立项",
+        "workflowId": "1235565458776645633",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1235565458776645633",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "采购立项 - 实验化验物料（流程节点待确认）",
+        "workflowId": "1235572609771364353",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1235572609771364353",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "采购立项 - 生产配品配件（流程节点待确认）",
+        "workflowId": "1235578489774530565",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1235578489774530565",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "采购立项 - 行政物料（流程待确认）",
+        "workflowId": "1235588110316724229",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1235588110316724229",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "采购立项 - 仓库物料（流程节点待确认）",
+        "workflowId": "1235589978677829646",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1235589978677829646",
         "icon": "fa-file-text-o"
       }
     ]
@@ -2446,12 +2476,6 @@
         "name": "食堂用餐（测试完成）",
         "workflowId": "1234892179694936172",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1234892179694936172",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "采购立项",
-        "workflowId": "1235112601669591147",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1235112601669591147",
         "icon": "fa-file-text-o"
       }
     ]
