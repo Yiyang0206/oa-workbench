@@ -2408,6 +2408,12 @@
         "icon": "fa-file-text-o"
       },
       {
+        "name": "食堂用餐（测试完成）",
+        "workflowId": "1234892179694936172",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1234892179694936172",
+        "icon": "fa-file-text-o"
+      },
+      {
         "name": "合同审批（2）",
         "workflowId": "1234901400998109223",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1234901400998109223",
@@ -2465,17 +2471,6 @@
         "name": "采购立项 - 仓库物料（流程节点待确认）",
         "workflowId": "1235589978677829646",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1235589978677829646",
-        "icon": "fa-file-text-o"
-      }
-    ]
-  },
-  {
-    "categoryName": "罗茨化工 —— 行政类",
-    "flows": [
-      {
-        "name": "食堂用餐（测试完成）",
-        "workflowId": "1234892179694936172",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1234892179694936172",
         "icon": "fa-file-text-o"
       }
     ]
