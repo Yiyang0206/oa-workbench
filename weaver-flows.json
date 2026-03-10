@@ -2462,7 +2462,7 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "采购立项 - 行政物料（流程待确认）",
+        "name": "采购立项 - 行政物料（测试完成）",
         "workflowId": "1235588110316724229",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1235588110316724229",
         "icon": "fa-file-text-o"
