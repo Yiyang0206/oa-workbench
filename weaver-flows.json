@@ -395,15 +395,15 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "订单评审",
-        "workflowId": "1207019272014069773",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1207019272014069773",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "产品报价流程",
         "workflowId": "1222151515685249025",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1222151515685249025",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "订单评审",
+        "workflowId": "1250409479806115841",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1250409479806115841",
         "icon": "fa-file-text-o"
       }
     ]
