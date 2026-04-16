@@ -253,12 +253,6 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "让步放行",
-        "workflowId": "1185067157386526732",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1185067157386526732",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "8D客诉流程(2025-12-31 11:18:05)",
         "workflowId": "1219560537925345311",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1219560537925345311",
