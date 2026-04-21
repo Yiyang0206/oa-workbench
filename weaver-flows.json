@@ -2468,7 +2468,7 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "采购立项 - 仓库物料（流程节点待确认）",
+        "name": "采购立项 - 仓库物料（测试完成）",
         "workflowId": "1235589978677829646",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1235589978677829646",
         "icon": "fa-file-text-o"
