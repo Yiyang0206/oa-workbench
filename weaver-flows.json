@@ -2476,6 +2476,17 @@
     ]
   },
   {
+    "categoryName": "罗茨化工 —— 行政类",
+    "flows": [
+      {
+        "name": "测试（按类别）",
+        "workflowId": "1261555143234461830",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1261555143234461830",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
     "categoryName": "罗茨化工 —— 分包管理",
     "flows": [
       {
