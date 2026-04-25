@@ -2432,7 +2432,7 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "基建工程立项",
+        "name": "基建工程立项（测试完成）",
         "workflowId": "1234941249746624764",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1234941249746624764",
         "icon": "fa-file-text-o"
@@ -2444,7 +2444,7 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "质量管理类立项",
+        "name": "质量管理类立项（测试完成）申请类别与清单不同步",
         "workflowId": "1235565458776645633",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1235565458776645633",
         "icon": "fa-file-text-o"
