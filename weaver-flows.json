@@ -340,6 +340,12 @@
         "workflowId": "1216676695145177206",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676695145177206",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "销售预计订单生产计划",
+        "workflowId": "1263402228346953806",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1263402228346953806",
+        "icon": "fa-file-text-o"
       }
     ]
   },
