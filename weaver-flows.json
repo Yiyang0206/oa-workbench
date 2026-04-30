@@ -1,5 +1,64 @@
 [
   {
+    "categoryName": "人事",
+    "flows": [
+      {
+        "name": "人员入职",
+        "workflowId": "1263702596993302550",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1263702596993302550",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "人员试用",
+        "workflowId": "1263702631386595460",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1263702631386595460",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "人员转正",
+        "workflowId": "1263702639791980570",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1263702639791980570",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "人员续签",
+        "workflowId": "1263702639791981361",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1263702639791981361",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "人员调动",
+        "workflowId": "1263702644070171323",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1263702644070171323",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "人员离职",
+        "workflowId": "1263702648432247133",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1263702648432247133",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "人员退休",
+        "workflowId": "1263702652811100257",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1263702652811100257",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "人员解聘",
+        "workflowId": "1263702657114456143",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1263702657114456143",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "人员返聘",
+        "workflowId": "1263702661308760089",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1263702661308760089",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
     "categoryName": "假勤类",
     "flows": [
       {
