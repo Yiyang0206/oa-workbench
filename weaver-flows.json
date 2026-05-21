@@ -2509,7 +2509,7 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "采购立项 - 安全与环保管理部（安全投入台帐）测式完成",
+        "name": "采购立项 - 安全生产类立项（安全投入台帐）测式完成",
         "workflowId": "1235213997316235381",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1235213997316235381",
         "icon": "fa-file-text-o"
@@ -2542,6 +2542,12 @@
         "name": "采购立项 - 仓库物料（测试完成）",
         "workflowId": "1235589978677829646",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1235589978677829646",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "采购立项-安环物料（测试完成）",
+        "workflowId": "1271576706431729665",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1271576706431729665",
         "icon": "fa-file-text-o"
       }
     ]
