@@ -138,9 +138,9 @@
     "categoryName": "德沃科学-财务类",
     "flows": [
       {
-        "name": "招待费申请",
-        "workflowId": "1283844266926063700",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1283844266926063700",
+        "name": "招待申请",
+        "workflowId": "1216676695145177202",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676695145177202",
         "icon": "fa-file-text-o"
       }
     ]
