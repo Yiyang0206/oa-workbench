@@ -289,7 +289,7 @@
     "categoryName": "德沃科学-人事类",
     "flows": [
       {
-        "name": "员工离职流程",
+        "name": "员工离职申请流程",
         "workflowId": "1216676583316643857",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676583316643857",
         "icon": "fa-file-text-o"
