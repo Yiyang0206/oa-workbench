@@ -993,6 +993,18 @@
         "workflowId": "1271588977279123467",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1271588977279123467",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "产品出库检验（按键板）",
+        "workflowId": "1286442013639352321",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1286442013639352321",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "产品出库检验（主板）",
+        "workflowId": "1286445659840094209",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1286445659840094209",
+        "icon": "fa-file-text-o"
       }
     ]
   },
