@@ -166,6 +166,12 @@
         "workflowId": "1216676695145177202",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676695145177202",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "采购申付流程",
+        "workflowId": "1290065398265061394",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1290065398265061394",
+        "icon": "fa-file-text-o"
       }
     ]
   },
