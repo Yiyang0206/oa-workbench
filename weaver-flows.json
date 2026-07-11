@@ -172,6 +172,18 @@
         "workflowId": "1290065398265061394",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1290065398265061394",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "付款申请",
+        "workflowId": "1290427747366903808",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1290427747366903808",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "费用报销",
+        "workflowId": "1290427949356195850",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1290427949356195850",
+        "icon": "fa-file-text-o"
       }
     ]
   },
