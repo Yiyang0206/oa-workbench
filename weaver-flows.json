@@ -2583,6 +2583,12 @@
         "workflowId": "1259322718118912000",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1259322718118912000",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "研发确认",
+        "workflowId": "1294240424212078593",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1294240424212078593",
+        "icon": "fa-file-text-o"
       }
     ]
   },
