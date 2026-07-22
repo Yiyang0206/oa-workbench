@@ -542,7 +542,7 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "客户送样申请",
+        "name": "免费送样申请",
         "workflowId": "1207018086628261889",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1207018086628261889",
         "icon": "fa-file-text-o"
