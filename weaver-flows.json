@@ -261,7 +261,7 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "私车公用申请流程",
+        "name": "日常私车公用申请流程",
         "workflowId": "1216676600597176427",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676600597176427",
         "icon": "fa-file-text-o"
@@ -1051,7 +1051,7 @@
     ]
   },
   {
-    "categoryName": "差旅类 - 罗茨",
+    "categoryName": "差旅类",
     "flows": [
       {
         "name": "省内外出",
@@ -1068,7 +1068,7 @@
     ]
   },
   {
-    "categoryName": "行政类 - 罗茨",
+    "categoryName": "行政类",
     "flows": [
       {
         "name": "行政采购",
@@ -1079,7 +1079,7 @@
     ]
   },
   {
-    "categoryName": "财务类 - 罗茨",
+    "categoryName": "财务类",
     "flows": [
       {
         "name": "借款申请",
@@ -2799,6 +2799,40 @@
         "name": "劳动合同新签/续签流程",
         "workflowId": "1234738698996670786",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1234738698996670786",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
+    "categoryName": "行政类",
+    "flows": [
+      {
+        "name": "请假申请",
+        "workflowId": "1294945567681323019",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1294945567681323019",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
+    "categoryName": "财务类",
+    "flows": [
+      {
+        "name": "费用报销流程",
+        "workflowId": "1294955364426227713",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1294955364426227713",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "借款流程",
+        "workflowId": "1294955579216535553",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1294955579216535553",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "采购申付流程",
+        "workflowId": "1294955759563218945",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1294955759563218945",
         "icon": "fa-file-text-o"
       }
     ]
