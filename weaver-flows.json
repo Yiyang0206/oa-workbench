@@ -524,12 +524,6 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "借机申请",
-        "workflowId": "1193632481756610572",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1193632481756610572",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "订单用印流程",
         "workflowId": "1193651912364818512",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1193651912364818512",
@@ -542,21 +536,21 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "免费送样申请",
-        "workflowId": "1207018086628261889",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1207018086628261889",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "产品报价流程",
         "workflowId": "1222151515685249025",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1222151515685249025",
         "icon": "fa-file-text-o"
       },
       {
+        "name": "送样申请",
+        "workflowId": "1295253993686867969",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1295253993686867969",
+        "icon": "fa-file-text-o"
+      },
+      {
         "name": "订单评审",
-        "workflowId": "1250409479806115841",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1250409479806115841",
+        "workflowId": "1295313736673566722",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1295313736673566722",
         "icon": "fa-file-text-o"
       }
     ]
