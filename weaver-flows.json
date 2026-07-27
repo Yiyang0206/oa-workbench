@@ -2520,12 +2520,6 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "差旅费报销单（广东省外出差）",
-        "workflowId": "1182439822842126425",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1182439822842126425",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "招待费用申请",
         "workflowId": "1182449263197020243",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1182449263197020243",
@@ -2547,6 +2541,12 @@
         "name": "付款申请单",
         "workflowId": "1295695967162245122",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1295695967162245122",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "差旅费报销单（广东省外出差）",
+        "workflowId": "1296720965536620552",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1296720965536620552",
         "icon": "fa-file-text-o"
       }
     ]
