@@ -2543,7 +2543,7 @@
     ]
   },
   {
-    "categoryName": "财务类",
+    "categoryName": "先进-财务类",
     "flows": [
       {
         "name": "采购申付流程",
@@ -2553,20 +2553,14 @@
       },
       {
         "name": "费用报销流程",
-        "workflowId": "1297532503927332866",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1297532503927332866",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "借款申请流程",
-        "workflowId": "1297533118048935944",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1297533118048935944",
+        "workflowId": "1298286055956193301",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1298286055956193301",
         "icon": "fa-file-text-o"
       }
     ]
   },
   {
-    "categoryName": "供应链",
+    "categoryName": "先进-供应链",
     "flows": [
       {
         "name": "供应商收款信息创建",
