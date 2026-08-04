@@ -918,7 +918,7 @@
     ]
   },
   {
-    "categoryName": "差旅类",
+    "categoryName": "罗茨化学-差旅类",
     "flows": [
       {
         "name": "省内外出",
@@ -935,7 +935,7 @@
     ]
   },
   {
-    "categoryName": "行政类",
+    "categoryName": "罗茨化学-行政类",
     "flows": [
       {
         "name": "行政采购",
@@ -946,7 +946,7 @@
     ]
   },
   {
-    "categoryName": "财务类",
+    "categoryName": "罗茨化学-财务类",
     "flows": [
       {
         "name": "借款申请",
