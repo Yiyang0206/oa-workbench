@@ -2555,6 +2555,17 @@
     ]
   },
   {
+    "categoryName": "hlw-财务类",
+    "flows": [
+      {
+        "name": "采购申付流程",
+        "workflowId": "1294955759563218945",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1294955759563218945",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
     "categoryName": "供应链",
     "flows": [
       {
@@ -2585,6 +2596,12 @@
         "workflowId": "1298286055956193301",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1298286055956193301",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "其他费用申请",
+        "workflowId": "1300494643994861573",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1300494643994861573",
+        "icon": "fa-file-text-o"
       }
     ]
   },
@@ -2609,9 +2626,21 @@
         "icon": "fa-file-text-o"
       },
       {
+        "name": "采购申付流程",
+        "workflowId": "1298210859459059722",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1298210859459059722",
+        "icon": "fa-file-text-o"
+      },
+      {
         "name": "借款申请流程",
         "workflowId": "1298211039881240577",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1298211039881240577",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "其他费用申请",
+        "workflowId": "1300508576759717888",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1300508576759717888",
         "icon": "fa-file-text-o"
       }
     ]
