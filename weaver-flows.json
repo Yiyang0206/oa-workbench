@@ -190,24 +190,6 @@
     "categoryName": "德沃科学-行政类",
     "flows": [
       {
-        "name": "员工出差申请",
-        "workflowId": "1216676583316643854",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676583316643854",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "员工加班申请",
-        "workflowId": "1216676583316643865",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676583316643865",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "员工请假申请",
-        "workflowId": "1216676583316643876",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676583316643876",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "日常私车公用申请流程",
         "workflowId": "1216676600597176427",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676600597176427",
@@ -241,12 +223,6 @@
         "name": "员工外出申请",
         "workflowId": "1216676695145177193",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676695145177193",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "招待申请",
-        "workflowId": "1216676695145177202",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676695145177202",
         "icon": "fa-file-text-o"
       },
       {
@@ -1442,12 +1418,36 @@
     ]
   },
   {
-    "categoryName": "先进-行政类",
+    "categoryName": "行政类-xj",
     "flows": [
       {
         "name": "用车申请",
         "workflowId": "1199130559701745706",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1199130559701745706",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "员工出差申请",
+        "workflowId": "1216676583316643854",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676583316643854",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "员工加班申请",
+        "workflowId": "1216676583316643865",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676583316643865",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "员工请假申请",
+        "workflowId": "1216676583316643876",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676583316643876",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "招待申请",
+        "workflowId": "1216676695145177202",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676695145177202",
         "icon": "fa-file-text-o"
       },
       {
@@ -2561,17 +2561,6 @@
     ]
   },
   {
-    "categoryName": "hlw-财务类",
-    "flows": [
-      {
-        "name": "采购申付流程",
-        "workflowId": "1294955759563218945",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1294955759563218945",
-        "icon": "fa-file-text-o"
-      }
-    ]
-  },
-  {
     "categoryName": "供应链",
     "flows": [
       {
@@ -2583,7 +2572,7 @@
     ]
   },
   {
-    "categoryName": "先进-财务类",
+    "categoryName": "财务类-xj",
     "flows": [
       {
         "name": "采购申付流程",
@@ -2612,7 +2601,7 @@
     ]
   },
   {
-    "categoryName": "先进-供应链",
+    "categoryName": "供应链-xj",
     "flows": [
       {
         "name": "供应商收款信息创建",
@@ -2623,36 +2612,7 @@
     ]
   },
   {
-    "categoryName": "联合创新-财务类",
-    "flows": [
-      {
-        "name": "费用报销流程",
-        "workflowId": "1298210696325799937",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1298210696325799937",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "采购申付流程",
-        "workflowId": "1298210859459059722",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1298210859459059722",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "借款申请流程",
-        "workflowId": "1298211039881240577",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1298211039881240577",
-        "icon": "fa-file-text-o"
-      },
-      {
-        "name": "其他费用申请",
-        "workflowId": "1300508576759717888",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1300508576759717888",
-        "icon": "fa-file-text-o"
-      }
-    ]
-  },
-  {
-    "categoryName": "业务",
+    "categoryName": "业务-xj",
     "flows": [
       {
         "name": "合同盖章申请",
