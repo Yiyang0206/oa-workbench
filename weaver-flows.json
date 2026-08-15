@@ -2583,6 +2583,17 @@
     ]
   },
   {
+    "categoryName": "研发",
+    "flows": [
+      {
+        "name": "设计变更",
+        "workflowId": "1303416205362372608",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1303416205362372608",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
     "categoryName": "其它",
     "flows": [
       {
