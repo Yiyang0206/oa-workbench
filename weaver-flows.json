@@ -934,6 +934,17 @@
     ]
   },
   {
+    "categoryName": "假勤类-xj",
+    "flows": [
+      {
+        "name": "员工加班申请-复制",
+        "workflowId": "1304887725448273920",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1304887725448273920",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
     "categoryName": "模版 - 人事",
     "flows": [
       {
