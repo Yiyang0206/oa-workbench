@@ -2569,12 +2569,6 @@
     "categoryName": "业务-xj",
     "flows": [
       {
-        "name": "合同盖章申请",
-        "workflowId": "1301991732146905089",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1301991732146905089",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "发票开票申请",
         "workflowId": "1302042584643575808",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1302042584643575808",
@@ -2584,6 +2578,12 @@
         "name": "售后物料|报价单审批",
         "workflowId": "1305721907040788480",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1305721907040788480",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "合同盖章申请",
+        "workflowId": "1307112922356121601",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1307112922356121601",
         "icon": "fa-file-text-o"
       }
     ]
