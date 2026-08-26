@@ -395,12 +395,6 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "项目立项",
-        "workflowId": "1201361490191638530",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1201361490191638530",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "产品报价流程",
         "workflowId": "1222151515685249025",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1222151515685249025",
@@ -413,15 +407,21 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "订单评审",
-        "workflowId": "1295313736673566722",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1295313736673566722",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "送样申请（散热风扇）",
         "workflowId": "1297898606771871744",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1297898606771871744",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "项目立项",
+        "workflowId": "1307484789222932485",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1307484789222932485",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "订单评审",
+        "workflowId": "1307486709098479618",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1307486709098479618",
         "icon": "fa-file-text-o"
       }
     ]
