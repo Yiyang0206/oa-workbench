@@ -2547,7 +2547,7 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "费用报销流程",
+        "name": "费用报销流程-dw",
         "workflowId": "1308234694765838387",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1308234694765838387",
         "icon": "fa-file-text-o"
@@ -2595,6 +2595,17 @@
         "name": "设计变更",
         "workflowId": "1303416205362372608",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1303416205362372608",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
+    "categoryName": "罗茨投资-财务类",
+    "flows": [
+      {
+        "name": "付款申请单",
+        "workflowId": "1308337718154756098",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1308337718154756098",
         "icon": "fa-file-text-o"
       }
     ]
