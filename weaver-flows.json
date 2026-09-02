@@ -1386,12 +1386,6 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "招待申请",
-        "workflowId": "1216676695145177202",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1216676695145177202",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "私车公用申请流程（年度）-xj",
         "workflowId": "1300810989827825737",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1300810989827825737",
@@ -1419,6 +1413,12 @@
         "name": "员工加班申请",
         "workflowId": "1306018650533961728",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1306018650533961728",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "招待申请",
+        "workflowId": "1310200157641113653",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1310200157641113653",
         "icon": "fa-file-text-o"
       }
     ]
