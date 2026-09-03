@@ -845,12 +845,6 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "散热风扇出库检验",
-        "workflowId": "1306069550237483009",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1306069550237483009",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "产品出库检验（标准）",
         "workflowId": "1306070091428528157",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1306070091428528157",
@@ -860,6 +854,12 @@
         "name": "来料检验流程 ",
         "workflowId": "1306070477916864521",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1306070477916864521",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "散热风扇出库检验",
+        "workflowId": "1310464676103716865",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1310464676103716865",
         "icon": "fa-file-text-o"
       }
     ]
