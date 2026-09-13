@@ -2611,6 +2611,17 @@
     ]
   },
   {
+    "categoryName": "质量-kx",
+    "flows": [
+      {
+        "name": "IQC来料检验流程",
+        "workflowId": "1314234798354202624",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1314234798354202624",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
     "categoryName": "其它",
     "flows": [
       {
