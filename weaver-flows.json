@@ -2535,12 +2535,6 @@
         "icon": "fa-file-text-o"
       },
       {
-        "name": "采购申付流程",
-        "workflowId": "1304532557514973189",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1304532557514973189",
-        "icon": "fa-file-text-o"
-      },
-      {
         "name": "其他费用申请",
         "workflowId": "1306090110313037824",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1306090110313037824",
@@ -2550,6 +2544,12 @@
         "name": "费用报销流程-dw",
         "workflowId": "1311303934330798137",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1311303934330798137",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "采购申付流程",
+        "workflowId": "1316517461815386186",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1316517461815386186",
         "icon": "fa-file-text-o"
       }
     ]
