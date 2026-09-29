@@ -2585,6 +2585,12 @@
         "workflowId": "1307112922356121601",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1307112922356121601",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "其他合同盖章申请",
+        "workflowId": "1320171160580317320",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1320171160580317320",
+        "icon": "fa-file-text-o"
       }
     ]
   },
