@@ -2628,6 +2628,23 @@
     ]
   },
   {
+    "categoryName": "财务类-汇智",
+    "flows": [
+      {
+        "name": "费用报销流程",
+        "workflowId": "1326853631283748869",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1326853631283748869",
+        "icon": "fa-file-text-o"
+      },
+      {
+        "name": "付款申请单",
+        "workflowId": "1326853785961291778",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1326853785961291778",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
     "categoryName": "其它",
     "flows": [
       {
