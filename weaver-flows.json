@@ -2606,17 +2606,6 @@
     ]
   },
   {
-    "categoryName": "罗茨投资-财务类",
-    "flows": [
-      {
-        "name": "付款申请单",
-        "workflowId": "1308337718154756098",
-        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1308337718154756098",
-        "icon": "fa-file-text-o"
-      }
-    ]
-  },
-  {
     "categoryName": "质量-kx",
     "flows": [
       {
@@ -2640,6 +2629,17 @@
         "name": "付款申请单",
         "workflowId": "1326853785961291778",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1326853785961291778",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
+    "categoryName": "罗茨投资-财务",
+    "flows": [
+      {
+        "name": "付款申请单",
+        "workflowId": "1308337718154756098",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1308337718154756098",
         "icon": "fa-file-text-o"
       }
     ]
