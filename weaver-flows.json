@@ -2562,6 +2562,12 @@
         "workflowId": "1297586581667618817",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1297586581667618817",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "供应商收款信息变更",
+        "workflowId": "1329009915521064960",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1329009915521064960",
+        "icon": "fa-file-text-o"
       }
     ]
   },
