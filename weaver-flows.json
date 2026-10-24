@@ -364,6 +364,12 @@
         "workflowId": "1263402228346953806",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1263402228346953806",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "SO订单确认流程",
+        "workflowId": "1329108124109037634",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1329108124109037634",
+        "icon": "fa-file-text-o"
       }
     ]
   },
