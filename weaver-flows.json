@@ -2657,6 +2657,17 @@
     ]
   },
   {
+    "categoryName": "生产类",
+    "flows": [
+      {
+        "name": "补料流程",
+        "workflowId": "1334662427464884279",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1334662427464884279",
+        "icon": "fa-file-text-o"
+      }
+    ]
+  },
+  {
     "categoryName": "其它",
     "flows": [
       {
