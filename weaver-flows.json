@@ -2670,6 +2670,12 @@
         "workflowId": "1334662427464884279",
         "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1334662427464884279",
         "icon": "fa-file-text-o"
+      },
+      {
+        "name": "补料流程",
+        "workflowId": "1337284702424981505",
+        "url": "https://oa.guoxinweiye.com/sp/workflow/flowpage/create/1337284702424981505",
+        "icon": "fa-file-text-o"
       }
     ]
   },
